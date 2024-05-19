@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #E5E7EB;
+    background-color: #FFF;
+}
+
+header {
+    background-color: #1F2937;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    perspective: 1000px;
+}
+
+.logo img {
+    width: 100px; /* Adjust the width to your preference */
+    height: auto; /* This maintains the aspect ratio */
+    transition: transform 0.5s;
+}
+
+.logo:hover img {
+    transform: rotateY(180deg);
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px; /* Adjust spacing between links */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px; /* Adjust padding to make it look like a button */
+    border: 1px solid black; /* Add border to make it look like a button */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    transition: all 0.3s; /* Transition all properties on hover */
+}
+
+nav ul li a:hover {
+    color: white; /* Change text color on hover */
+    background-color: rgb(106, 106, 150); /* Change background color on hover */
+    border-color: rgb(106, 106, 150); /* Change border color on hover */
+}
+
+
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #1F2937;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.signup-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #3882F6;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    background-color: #3882F6;
+    color: #FFF;
+    padding: 20px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1F2937;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1F2937;
+}
+
+.call-to-action {
+    background-color: #1F2937;
+    padding: 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+.call-to-action .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-to-action h2, .call-to-action p {
+    color: #FFF;
+}
+
+.call-to-action .signup-btn {
+    background-color: #3882F6;
+    color: #FFF;
+    padding: 8px 20px;
+    font-size: 14px; /* Adjust as needed */
+    text-decoration: none;
+    border-radius: 5px;
+}
+blockquote {
+    font-style: italic;
+    margin: 20px;
+    padding: 10px;
+    border-left: 5px solid #ccc;
+}
+.author {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
